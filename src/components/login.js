@@ -18,7 +18,7 @@ function LoginPage() {
           <label htmlFor="username">Userme:</label>
           <input
             type="text"
-            id="userne"
+            id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
