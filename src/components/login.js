@@ -15,7 +15,7 @@ function LoginPage() {
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="username">Userme:</label>
+          <label htmlFor="username">Username:</label>
           <input
             type="text"
             id="username"
