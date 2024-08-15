@@ -5,6 +5,7 @@ import LoginPage from './components/login';
 import Signup from './components/Signup';
 import Home from './components/home';
 import NotFound from './components/notfound';
+import Popup from './components/popup';
 
 export default function App() {
     return(
@@ -16,6 +17,9 @@ export default function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Popup trigger = {true}>
+                <h3>My Popup</h3>
+            </Popup>
         </div>
     )
 }
