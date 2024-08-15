@@ -9,7 +9,6 @@ import NotFound from './components/notfound';
 export default function App() {
     return(
         <div>
-            <h1>My App is working!</h1>
             <Nav />
             <Routes>
                 <Route path="/login" element={<LoginPage />} />
