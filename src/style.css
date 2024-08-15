@@ -19,7 +19,7 @@ nav
     height: 150;
 }
 .navbar-right a {
-    color: #0f0101;
+    color: #6e1616;
     text-decoration: none;
     justify-content: space-between;
     display: flex;
@@ -38,7 +38,7 @@ nav
 }
 
 .nav--links a:hover {
-  color: #007bff; /* Add a hover effect */
+  color: #c67927; /* Add a hover effect */
 }
 
 .login-container {
@@ -90,4 +90,3 @@ nav
   button:hover {
     background-color: #0056b3;
   }
-
