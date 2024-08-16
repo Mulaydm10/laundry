@@ -5,11 +5,11 @@ import LoginPage from './components/login';
 import Signup from './components/Signup';
 import Home from './components/home';
 import NotFound from './components/notfound';
+import Popup from './components/popup';
 
 export default function App() {
     return(
         <div>
-            <h1>My App is working!</h1>
             <Nav />
             <Routes>
                 <Route path="/login" element={<LoginPage />} />
@@ -17,6 +17,9 @@ export default function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Popup trigger = {true}>
+                <h3>My Popup</h3>
+            </Popup>
         </div>
     )
 }
